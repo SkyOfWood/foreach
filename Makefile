@@ -1,5 +1,5 @@
 LIBS = -lpthread
-OBJS = foreach.o
+OBJS = foreach.cpp
 ARGS = -Wall -g
 foreach: ${OBJS}
 	g++ -o foreach ${OBJS} ${LIBS} ${ARGS}
